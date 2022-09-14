@@ -214,4 +214,10 @@ ol,ul {
     #intro nav{
         width: 100%;
     }
+
+    #main article{
+        width: 100%;
+        height: 420px;
+    } 
 }
+
