@@ -166,3 +166,29 @@ ol,ul {
 
     text-align: right;
 }
+
+#main article.one,
+#main article.two,
+#main article.three {
+    transition: background-color 0.3s; 
+}
+
+#main article.one:hover{
+    background-color :#8683bd;
+}
+
+#main article.two:hover{
+    background-color :#bf7eac;
+}
+
+#main article.three:hover{
+    background-color :#75ccd0;
+}
+
+#main article img{
+    transition: all 0.3s; 
+}
+
+#main article img:hover{
+    transform: scale(1.1);
+}
